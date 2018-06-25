@@ -1,0 +1,879 @@
+/* Fonts 
+ font-family: 'Herr Von Muellerhoff', cursive; 
+ font-family: 'Passion One', cursive;
+
+ */
+/* Global */
+body {
+  background-color: #fffff0;
+  height: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  overflow-x: hidden; }
+
+.intro, html {
+  height: 100%;
+  width: 100%; }
+
+.intro {
+  overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+a {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+button, input, .btn, a.btn {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: white; }
+
+button.btn:focus {
+  outline: none !important; }
+
+.custom-toggler:focus {
+  outline: none !important; }
+
+.active a {
+  color: #BE975E !important; }
+
+.nav-link {
+  color: #fffff0 !important; }
+
+.nav-link:hover {
+  color: #BE975E !important; }
+
+.logo {
+  color: #fffff0;
+  font-size: 33px;
+  letter-spacing: 3px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+.logo:hover {
+  color: #BE975E; }
+
+.bg-custom {
+  font-family: 'Passion One', cursive;
+  font-size: 23px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding-bottom: 6px; }
+
+.bg-custom-menu {
+  font-family: 'Passion One', cursive;
+  font-size: 23px;
+  background-color: #fffff0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding-bottom: 6px; }
+
+.bg-custom-menu .logo {
+  color: #3E3C3D; }
+
+.bg-custom-menu ul li a {
+  color: #3E3C3D !important; }
+
+.intro {
+  background: url("../img/rest.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.intro {
+  text-align: center; }
+
+.intro h1 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #BE975E;
+  font-size: 9em;
+  padding-top: 50px; }
+
+#tasteful h1, #perfect h1 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 70px;
+  position: relative;
+  top: 120px;
+  background: #fffff0;
+  width: 500px;
+  margin: 0 auto; }
+
+.intro h2 {
+  color: white;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 50px;
+  position: relative;
+  top: -60px;
+  text-shadow: 0 0 40px #BE975E; }
+
+.intro h2:before,
+.intro h2:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 250px; }
+
+.intro h2:before {
+  right: 50%;
+  top: 67px;
+  margin-right: 20px; }
+
+.intro h2:after {
+  left: 50%;
+  top: 67px;
+  margin-left: 20px; }
+
+.fa-asterisk {
+  color: #BE975E;
+  font-size: 20px;
+  position: relative;
+  top: -68px; }
+
+#discover {
+  padding: 75px 0 75px 0;
+  text-align: center;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+#discover:hover {
+  background: #3E3C3D;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 10px; }
+
+#discover img {
+  height: 100%;
+  width: 100%;
+  margin-left: 50px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 10px; }
+
+#discover:hover p {
+  color: #fffff0; }
+
+#discover:hover h2 {
+  color: #fffff0; }
+
+#menu:hover p {
+  color: #fffff0; }
+
+#menu:hover h2 {
+  color: #fffff0; }
+
+#discover p {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #3E3C3D;
+  position: relative;
+  top: -40px;
+  padding: 0 20px 0 20px; }
+
+#discover h1 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #BE975E;
+  font-size: 9em;
+  padding-top: 50px; }
+
+#discover h2 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 50px;
+  position: relative;
+  top: -75px; }
+
+#discover h4 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  font-size: 22px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+#discover:hover h4 {
+  color: #fffff0; }
+
+#menu:hover h4 {
+  color: #fffff0; }
+
+#discover h4::before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  width: 40;
+  height: 3px;
+  will-change: width, margin-right;
+  background-color: #BE975E;
+  transition: width 0.8s cubic-bezier(0.19, 1, 0.22, 1), margin-right 0.8s cubic-bezier(0.19, 1, 0.22, 1); }
+
+#discover h4:hover::before,
+#discover h4:focus::before {
+  width: 20px;
+  margin-right: 5px; }
+
+#discover a {
+  color: #3E3C3D;
+  text-decoration: none; }
+
+.recipe, .blend {
+  height: 318px; }
+
+.recipe {
+  background: url("../img/octopus.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  overflow-x: hidden; }
+
+#menu {
+  padding: 75px 0 75px 0;
+  text-align: center;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+#menu:hover {
+  background: #3E3C3D;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 10px; }
+
+#menu img {
+  height: 100%;
+  width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 10px; }
+
+#menu:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  position: relative;
+  right: 20px;
+  /*----HACK :( ----*/ }
+
+#menu p {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #3E3C3D;
+  position: relative;
+  top: -40px;
+  padding: 0 20px 0 20px; }
+
+#menu h1 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #BE975E;
+  font-size: 9em;
+  padding-top: 50px; }
+
+#menu h2 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 50px;
+  position: relative;
+  top: -75px; }
+
+#menu h4 {
+  font-family: 'Passion One', cursive;
+  font-size: 22px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #3E3C3D; }
+
+#menu a {
+  text-decoration: none;
+  color: #3E3C3D; }
+
+#menu h4::before {
+  content: '';
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 3px;
+  width: 40;
+  height: 3px;
+  will-change: width, margin-right;
+  background-color: #BE975E;
+  transition: width 0.8s cubic-bezier(0.19, 1, 0.22, 1), margin-right 0.8s cubic-bezier(0.19, 1, 0.22, 1); }
+
+#menu h4:hover::before,
+#menu h4:focus::before {
+  width: 20px;
+  margin-right: 5px; }
+
+.blend {
+  background: url("../img/veal.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center; }
+
+.blend h1 {
+  color: #fffff0; }
+
+.blend .fa-asterisk {
+  color: #fffff0; }
+
+.blend h2 {
+  color: #fffff0;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 50px;
+  position: relative;
+  top: -60px; }
+
+/*------------------------------------------------------------------
+[Gallery]
+*/
+.gallery {
+  text-align: center; }
+
+.gallery h1 {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #BE975E;
+  font-size: 9em;
+  padding-top: 50px; }
+
+.gallery h2 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 50px;
+  position: relative;
+  top: -75px; }
+
+.gallery .fa-asterisk {
+  position: relative;
+  top: -75px; }
+
+.gallery img {
+  height: 400px;
+  object-fit: cover;
+  padding-top: 20px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden; }
+
+.gallery img:hover {
+  color: black;
+  opacity: 0.3; }
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); }
+
+#pizza:hover .middle {
+  opacity: 1; }
+
+#wine:hover .middle {
+  opacity: 1; }
+
+#craft:hover .middle {
+  opacity: 1; }
+
+#classic:hover .middle {
+  opacity: 1; }
+
+#pdr:hover .middle {
+  opacity: 1; }
+
+#pasta:hover .middle {
+  opacity: 1; }
+
+.text {
+  background-color: #3E3C3D;
+  color: #fffff0;
+  font-size: 16px;
+  padding: 16px 32px; }
+
+/*===== END =======*/
+/*===== RESERVATIONS =======*/
+.reservation h1 {
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #fffff0;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.reservation {
+  background: #3E3C3D;
+  margin-top: 77px; }
+
+.reservation input {
+  background: #fffff0;
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+.reservation input:focus {
+  background: #fffff0; }
+
+.reservation textarea {
+  background: #fffff0;
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 30px; }
+
+.reservation textarea:focus {
+  background: #fffff0; }
+
+.reservation .btn {
+  background-color: #fffff0;
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 50px;
+  margin-top: 30px; }
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 0 7px #BE975E !important;
+  border: 1px solid #BE975E !important; }
+
+.reservation .btn:hover {
+  box-shadow: 0 0 7px #BE975E !important;
+  border: 1px solid #BE975E !important; }
+
+/*===== RESERVATIONS END =======*/
+/*====FOOTER ======*/
+#footer {
+  margin: 50px 0 20px 10px;
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+#footer h5 {
+  text-align: left;
+  letter-spacing: 2px; }
+
+.bottom {
+  padding-left: 0; }
+
+#footer ul li {
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  list-style-type: none; }
+
+#footer a {
+  color: #3E3C3D;
+  text-decoration: none; }
+
+#footer a:hover {
+  color: #BE975E; }
+
+#left-footer {
+  padding: 0; }
+
+#left-footer li {
+  margin-bottom: 16px; }
+
+#footer input {
+  border: none;
+  background-color: #fffff0;
+  width: 250px;
+  letter-spacing: 1px;
+  padding: 0;
+  border-bottom: 2px solid #3E3C3D;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 0%; }
+
+#footer input:placeholder-shown {
+  border-bottom: 2px solid #3E3C3D;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 0%; }
+
+#footer input:focus {
+  box-shadow: 0 0 #fffff0 !important;
+  border: none !important;
+  border-bottom: 2px solid #3E3C3D !important;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 0%; }
+
+#footer h2 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: center; }
+
+#footer .fa-asterisk {
+  position: relative;
+  top: 1px;
+  display: block;
+  text-align: center; }
+
+#bottom-footer {
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 1px;
+  background: #7F7F78;
+  color: #fffff0; }
+
+#bottom-footer p {
+  padding-top: 15px;
+  margin-left: 20px; }
+
+#bottom-footer i {
+  display: block;
+  float: right;
+  color: #fffff0;
+  margin-right: 30px;
+  font-size: 25px;
+  padding-top: 15px;
+  -webkit-transition: -webkit-transform .6s ease-in-out;
+  transition: transform .6s ease-in-out; }
+
+#bottom-footer i:hover {
+  color: #BE975E;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); }
+
+/*==== FOOTER END ====*/
+/*---- Menu css ---*/
+.menu, .menu-dinner, .menu-dessert {
+  margin-top: 50px;
+  height: 318px; }
+
+.menu {
+  background: url("../img/lunch-pasta.jpeg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  overflow-x: hidden; }
+
+.menu-dinner {
+  background: url("../img/lobster.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  overflow-x: hidden; }
+
+.menu-dessert {
+  background: url("../img/dessert.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  overflow-x: hidden; }
+
+.menu h1 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 70px;
+  position: relative;
+  top: 130px;
+  background: #fffff0;
+  width: 250px;
+  margin: 0 auto; }
+
+.menu-dinner h1 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 70px;
+  position: relative;
+  top: 120px;
+  background: #fffff0;
+  width: 250px;
+  margin: 0 auto; }
+
+.menu-dessert h1 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  letter-spacing: 5px;
+  font-size: 70px;
+  position: relative;
+  top: 120px;
+  background: #fffff0;
+  width: 250px;
+  margin: 0 auto; }
+
+h3 {
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 24px;
+  color: #3E3C3D;
+  margin-top: 50px; }
+
+p {
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 18px; }
+
+#three-course, .info {
+  font-family: 'Gentium Basic', serif;
+  font-size: 16px;
+  font-style: italic; }
+
+/* News and Events */
+#news-top {
+  background: url("../img/newswine.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden; }
+
+#jumbo-news {
+  width: 100%;
+  overflow-x: hidden; }
+
+#menu-left {
+  background: #fffff0;
+  text-align: left;
+  padding: 50px 75px;
+  margin-top: 150px;
+  margin-bottom: 120px;
+  border: 2px solid #BE975E;
+  box-shadow: 0 0 20px #BE975E; }
+
+#menu-left h4 {
+  color: #7F7F78;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+#mothers h4 {
+  color: #7F7F78;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+#ice-cream h4 {
+  color: #7F7F78;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+#menu-left h2 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 48px; }
+
+#ice-cream h2 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 48px; }
+
+#menu-left p {
+  color: #3E3C3D;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding-top: 10px; }
+
+#ice-cream p {
+  color: #3E3C3D;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding-top: 10px; }
+
+#mothers h2 {
+  color: #3E3C3D;
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 48px; }
+
+#mothers p {
+  color: #3E3C3D;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding-top: 10px; }
+
+.btn-news {
+  font-family: 'Passion One', cursive;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: #BE975E;
+  color: #fffff0;
+  letter-spacing: 2px;
+  padding: 8px;
+  width: 140px; }
+
+#mothers-img {
+  padding-top: 50px; }
+
+#jumbo-two, #jumbo-one {
+  margin-top: 50px; }
+
+#ice-img {
+  padding-top: 50px;
+  position: relative;
+  right: 356px; }
+
+#mothers {
+  background: ivory;
+  border: 2px solid #BE975E;
+  align-content: bottom;
+  text-align: left;
+  padding: 50px 75px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px #BE975E; }
+
+#ice-cream {
+  z-index: 1;
+  background: #fffff0;
+  text-align: left;
+  padding: 50px 75px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  border: 2px solid #BE975E;
+  box-shadow: 0 0 20px #BE975E; }
+
+/* News and Events END */
+/* SCROLL */
+.fixed-top.scrolled {
+  background-color: #fffff0 !important;
+  transition: background-color 200ms linear !important; }
+
+.fixed-top.scrolled .nav-link {
+  color: #3e4249 !important; }
+
+.fixed-top.scrolled .nav-link:hover {
+  color: #BE975E !important; }
+
+.fixed-top.scrolled .logo {
+  color: #3e4249 !important; }
+
+.fixed-top.scrolled .logo:hover {
+  color: #BE975E !important; }
+
+/* end scroll */
+@media screen and (max-width: 479px) {
+  .logo {
+    font-size: 28px !important; }
+  .intro {
+    background: #7F7F78 !important;
+    background-size: cover !important; }
+  .intro h2 {
+    text-shadow: 0 0 40px #BE975E !important;
+    font-size: 30px !important; }
+  .intro h2::before {
+    display: none !important; }
+  .intro h2::after {
+    display: none !important; }
+  #discover img, #menu img {
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 5px 5px 0 5px !important; }
+  #donatelli-footer {
+    display: none !important; }
+  #bottom-footer {
+    text-align: center !important; }
+  #social-bottom {
+    padding-right: 85px;
+    padding-bottom: 5px; }
+  #jumbo-news img {
+    display: none; }
+  #jumbo-news {
+    background-color: #BE975E;
+    padding-top: 32px; }
+  #jumbo-one {
+    position: relative;
+    top: -120px; }
+  #jumbo-two {
+    position: relative;
+    top: -200px; }
+  #jumbo-v {
+    position: relative;
+    top: -330px; }
+  #tasteful h1, #perfect h1 {
+    font-size: 50px;
+    width: 200px; }
+  #tasteful h1 {
+    position: relative !important;
+    top: 100px !important;
+    right: 2px !important; }
+  #perfect h1 {
+    position: relative;
+    top: 67px; } }
